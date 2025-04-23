@@ -18,10 +18,6 @@
 
   <hr>
 
-  <h2>🔗 Live Demo</h2>
-  <p>👉 <a href="https://batakh-64.github.io/my-portfolio-in-html-css-js" target="_blank">Check out the live version here</a></p>
-
-  <hr>
 
   <h2>🛠️ Tech Stack</h2>
   <ul>
