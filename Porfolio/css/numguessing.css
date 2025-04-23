@@ -1,0 +1,179 @@
+
+nav{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+    padding-top: 10px;
+}
+.container {
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    background-color: var(--primary-light);
+}
+
+.headingH1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-dark);
+}
+
+.heading1txt {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    color: var(--text-dark);
+}
+
+#heading2txt {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    color: var(--text-dark);
+}
+
+.heading3txt {
+    font-size: 1.7rem;
+    font-weight: 800;
+    padding: 1rem;
+    color: var(--text-dark);
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputtxt {
+    width: 10rem;
+    height: 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1.8px solid #000;
+    margin: 0.5rem;
+}
+
+.inputtxt:focus {
+    outline: none;
+    border: 2px solid #780000;
+}
+
+.inputtxt:hover {
+    outline: none;
+    border: 2px solid #780000;
+}
+
+.inptxt {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--text-dark);
+
+}
+
+.blogContainer {
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+
+.blogContainer h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.1rem;
+    text-align: left;
+}
+
+.blogContainer p,
+ul,
+li,
+ol {
+    text-align: left;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
+
+
+.highlight {
+    background-color: #eef2ff37;
+    padding: 10px 15px;
+    border-left: 4px solid var(--light-color);
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+#howToPlay {
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+
+.childContainer p {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+
+@media (max-width: 800px) {
+
+    header{
+        padding: 0.5rem;
+    }
+
+    .nav-links{
+        top: 40px;
+        left: -110%;
+    }
+
+    .nav-links.active {
+        left: -9px;
+        height: calc(100vh - 0px);
+        width: 101%;
+    }
+    
+
+}
