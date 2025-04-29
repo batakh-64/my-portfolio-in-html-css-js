@@ -42,14 +42,14 @@ computerScore.textContent = computerScoreValue;
 
 function setpic2() {
   if (computerChoice === 1) {
-    pic2.style.backgroundImage = "url('/images/rock.png')";
+    pic2.style.backgroundImage = "url('/my-portfolio-in-html-css-js/Portfolio/images/rock.png')";
   } else if (computerChoice === 2) {
-    pic2.style.backgroundImage = "url('/images/paper.png')";
+    pic2.style.backgroundImage = "url('/my-portfolio-in-html-css-js/Portfolio/images/paper.png')";
   } else if (computerChoice === 3) {
-    pic2.style.backgroundImage = "url('/images/scissors.png')";
+    pic2.style.backgroundImage = "url('/my-portfolio-in-html-css-js/Portfolio/images/scissors.png')";
   }
   else {
-    pic2.style.backgroundImage = "url('/images/error.png')";
+    pic2.style.backgroundImage = "url('/my-portfolio-in-html-css-js/Portfolio/images/error.png')";
   }
 }
 
@@ -112,19 +112,19 @@ function playGame() {
 
 rock.addEventListener("click", function () {
   playerChoice = 1;
-  pic1.style.backgroundImage = "url('/images/rock.png')";
+  pic1.style.backgroundImage = "url('/my-portfolio-in-html-css-js/Portfolio/images/rock.png')";
 });
 
 
 paper.addEventListener("click", function () {
   playerChoice = 2;
-  pic1.style.backgroundImage = "url('/images/paper.png')";
+  pic1.style.backgroundImage = "url('/my-portfolio-in-html-css-js/Portfolio/images/paper.png')";
 });
 
 
 scissors.addEventListener("click", function () {
   playerChoice = 3;
-  pic1.style.backgroundImage = "url('/images/scissors.png')";
+  pic1.style.backgroundImage = "url('/my-portfolio-in-html-css-js/Portfolio/images/scissors.png')";
 });
 
 
@@ -138,8 +138,8 @@ reset.addEventListener("click", function () {
   playerScore.textContent = "0";
   computerScore.textContent = "0";
 
-  pic2.style.backgroundImage = "url('/images/scissors.png')";
-  pic1.style.backgroundImage = "url('/images/rock.png')";
+  pic2.style.backgroundImage = "url('/my-portfolio-in-html-css-js/Portfolio/images/scissors.png')";
+  pic1.style.backgroundImage = "url('/my-portfolio-in-html-css-js/Portfolio/images/rock.png')";
 
   playerChoice = null;
   computerChoice = null;

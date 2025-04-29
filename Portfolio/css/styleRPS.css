@@ -50,7 +50,7 @@
 #pic1 {
 
     rotate: 90deg;
-    background: url("/images/rock.png") no-repeat;
+    background: url("/my-portfolio-in-html-css-js/Portfolio/images/rock.png") no-repeat;
     background-size: contain;
     background-position: center;
     object-fit: contain;
@@ -61,7 +61,7 @@
 
 #pic2 {
     rotate: -90deg;
-    background: url("/images/paper.png") no-repeat;
+    background: url("/my-portfolio-in-html-css-js/Portfolio/images/paper.png") no-repeat;
     background-size: contain;
     background-position: center;
     object-fit: contain;

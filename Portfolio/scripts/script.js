@@ -105,7 +105,7 @@ let downloadbtn1 = document.getElementById("downloadbtn1");
 
 downloadbtn1.addEventListener("click", function () {
     const link = document.createElement("a");
-    link.href = "images\Aqsa_Rajpoot_Resume.docx";
+    link.href = "/my-portfolio-in-html-css-js/Portfolio/images/Aqsa_Rajpoot_Resume.docx";
     link.download = "Aqsa_Rajpoot_Resume.docx";
     link.click();
 });
